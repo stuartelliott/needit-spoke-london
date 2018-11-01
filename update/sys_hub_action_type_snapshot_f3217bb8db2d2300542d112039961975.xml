@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get the value of an application property.</description>
+        <internal_name>get_property</internal_name>
+        <label_cache>[{"name":"{{action.property}}","label":"action➛Property","type":"action","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].p}}","label":"step➛Look up Application Property➛p","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].pr}}","label":"step➛Look up Application Property➛pr","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].pro}}","label":"step➛Look up Application Property➛pro","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].prop}}","label":"step➛Look up Application Property➛prop","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].prope}}","label":"step➛Look up Application Property➛prope","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].proper}}","label":"step➛Look up Application Property➛proper","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].propert}}","label":"step➛Look up Application Property➛propert","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].property}}","label":"step➛Look up Application Property➛property","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].property_}}","label":"step➛Look up Application Property➛property_","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].property_v}}","label":"step➛Look up Application Property➛property_v","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].property_va}}","label":"step➛Look up Application Property➛property_va","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].property_val}}","label":"step➛Look up Application Property➛property_val","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].property_valu}}","label":"step➛Look up Application Property➛property_valu","type":"step","ref":""},{"name":"{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].property_value}}","label":"step➛Look up Application Property➛property_value","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get Property</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Property">325a67b4db2d2300542d1120399619d9</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-01 09:39:32</sys_created_on>
+        <sys_id>f3217bb8db2d2300542d112039961975</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Property</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_286552_needit_sp">5af9a77cdbe92300542d1120399619f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">5af9a77cdbe92300542d1120399619f2</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_f3217bb8db2d2300542d112039961975</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-01 09:39:32</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=f3217bb8db2d2300542d112039961975"/>
+    <sys_element_mapping action="delete_multiple" query="id=f3217bb8db2d2300542d112039961975"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>property_value</field>
+        <id>f3217bb8db2d2300542d112039961975</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-01 09:39:32</sys_created_on>
+        <sys_id>c0317bb8db2d2300542d1120399619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-01 09:39:32</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f3217bb8db2d2300542d112039961975</table>
+        <value>{{step[a75ed5f5-1a1f-4564-8ed6-fe31ef1a2e9d].property_value}}</value>
+    </sys_element_mapping>
+</record_update>
